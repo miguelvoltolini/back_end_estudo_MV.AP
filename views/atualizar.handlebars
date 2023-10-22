@@ -1,0 +1,13 @@
+<h1>Atualizar atividade</h1>
+<form action="/atualizar" method="post">
+    <label for="id">insira o codigo do usuário que você deseja atualizar</label>
+    <input type="text" name="id">
+    <br><br>
+    <label for="nome">insira o novo nome do usuário</label>
+    <input type="text" name="nome">
+    <br><br>
+    <button type="submit">Atualizar</button>
+</form>
+{{#if msg}}
+<h3>{{msg}}</h3>
+{{/if}}

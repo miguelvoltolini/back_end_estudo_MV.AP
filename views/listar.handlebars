@@ -1,11 +1,13 @@
 <table>
     <thead>
+        <th>Id</th>
         <th>Nome</th>
         <th>Email</th>
         <th>Senha</th>
     </thead>
 {{#each tabela}}
     <tr>
+        <td>{{this.id}}</td>
         <td>{{this.nome}}</td>
         <td>{{this.email}}</td>
         <td>{{this.senha}}</td>
